@@ -1,3 +1,3 @@
-FROM ubuntu:20.04
+FROM ubuntu:groovy-20210325
 COPY rke /usr/bin/
 CMD ["rke"]
