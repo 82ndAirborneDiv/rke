@@ -1,3 +1,3 @@
-FROM ubuntu:20.04
+FROM ubuntu:rolling
 COPY rke /usr/bin/
 CMD ["rke"]
